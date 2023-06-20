@@ -14,6 +14,7 @@ public class CreateListElements {
     public static void getScanner(){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter elements as String, and when you want to Stop press *");
+        input.close();
         getString(input);
     }
 
